@@ -163,7 +163,7 @@
 				                                    </div>
 				                                    <?php } ?>
 				                                    <div class="form-group col-md-4 m-t-10">
-				                                        <label>Date Of Joining </label>
+				                                        <label>Date Of Employement </label>
 				                                        <input type="date" <?php if($this->session->userdata('user_type')=='EMPLOYEE'){ ?> readonly <?php } ?> id="example-email2" name="joindate" class="form-control" value="<?php echo $basic->em_joining_date; ?>" placeholder=""> 
 				                                    </div>
 				                                    <div class="form-group col-md-4 m-t-10">

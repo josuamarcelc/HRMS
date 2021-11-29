@@ -62,7 +62,7 @@
                     </div>
                  <div class="form-check">
                      <input type="checkbox" name="remember" class="form-check-input" id="remember-me">
-                     <label class="form-check-label" for="remember-me">Remember me plz!</label>
+                     <label class="form-check-label" for="remember-me">Remember me</label>
                  </div>                     
                     <div class="form-group text-center m-t-20">
                         <div class="col-xs-12">

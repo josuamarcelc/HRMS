@@ -641,9 +641,9 @@ class Projects extends CI_Controller
 				unlink("./assets/images/projects/$imgvalue->image");
 				$success = $this->project_model->DeletPro($id);
 				$success = $this->project_model->DeletAssignuser($id);
-				echo 'Success Deletd';
+				echo 'Success Deleted';
 			}
-			#echo "Successfully Deletd";
+			#echo "Successfully Deleted";
 		} else {
 			redirect(base_url(), 'refresh');
 		}
@@ -656,9 +656,9 @@ class Projects extends CI_Controller
 			if (!empty($imgvalue->id)) {
 				unlink("./assets/images/projects/$imgvalue->file_url");
 				$success = $this->project_model->DeletProFile($id);
-				echo 'Success Deletd';
+				echo 'Success Deleted';
 			}
-			#echo "Successfully Deletd";
+			#echo "Successfully Deleted";
 		} else {
 			redirect(base_url(), 'refresh');
 		}

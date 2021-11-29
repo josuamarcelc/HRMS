@@ -87,9 +87,9 @@
                                         </select>
                                     </div>
                                     <div class="form-group col-md-3 m-t-20">
-                                        <label>Blood Group </label>
+                                        <label>Blood Type </label>
                                         <select name="blood" class="form-control custom-select">
-                                            <option>Select Gender</option>
+                                            <option>Select Blood Type</option>
                                             <option value="O+">O+</option>
                                             <option value="O-">O-</option>
                                             <option value="A+">A+</option>
@@ -100,7 +100,7 @@
                                         </select>
                                     </div>
                                     <div class="form-group col-md-3 m-t-20">
-                                        <label>NID</label>
+                                        <label>ID Number</label>
                                         <input type="text" name="nid" class="form-control" value="" placeholder="" minlength="10" required> 
                                     </div>
                                     <div class="form-group col-md-3 m-t-20">
@@ -112,11 +112,11 @@
                                         <input type="date" name="dob" id="example-email2" name="example-email" class="form-control" placeholder="" required> 
                                     </div>
                                     <div class="form-group col-md-3 m-t-20">
-                                        <label>Date Of Joining </label>
+                                        <label>Date Of Employement </label>
                                         <input type="date" name="joindate" id="example-email2" name="example-email" class="form-control" placeholder=""> 
                                     </div>
                                     <div class="form-group col-md-3 m-t-20">
-                                        <label>Date Of Leaving </label>
+                                        <label>Date Of Regularization </label>
                                         <input type="date" name="leavedate" id="example-email2" name="example-email" class="form-control" placeholder=""> 
                                     </div>
                                     <div class="form-group col-md-3 m-t-20">

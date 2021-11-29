@@ -650,7 +650,7 @@ $obj_merged = (object) array_merge((array) $employee_info, (array) $salaryvalueb
                                         <tr>
                                             <td>Pay Date</td>
                                             <td>:". $dd; echo "</td>
-                                            <td>Date of Joining</td>
+                                            <td>Date of Employement</td>
                                             <td>:$obj_merged->em_joining_date</td>
                                         </tr>
                                         <tr>

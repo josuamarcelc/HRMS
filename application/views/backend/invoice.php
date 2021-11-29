@@ -76,7 +76,7 @@
                                         <tr>
                                             <td>Pay Date</td>
                                             <td>: <?php echo date('j F Y',strtotime($salary_info->paid_date)); ?></td>
-                                            <td>Date of Joining</td>
+                                            <td>Date of Employement</td>
                                             <td>: <?php echo $obj_merged->em_joining_date; ?></td>
                                         </tr>
                                         <tr>
